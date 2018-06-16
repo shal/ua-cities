@@ -1,7 +1,10 @@
+[license]: ./LICENSE
+
 # Ukrainian cities
 
 ## Overview
 
-## Usage
+JSON API to for getting location of specified Ukrainian city.
 
 ## License
+Project released under the terms of the MIT [license][license].
