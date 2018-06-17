@@ -1,8 +1,6 @@
 package cmd
 
 import (
-	"os"
-
 	"github.com/ashanaakh/ua-cities/api"
 	"github.com/gin-gonic/gin"
 )
@@ -13,12 +11,8 @@ func Run() {
 	api := api.NewCitiesAPI()
 
 	router.GET("/city/:name", api.HandleCity)
+	router.GET("/city", api.HandleCityWithQuery)
+	router.GET("/cities", api.HandleCities)
 
-	port, ok := os.LookupEnv("PORT")
-
-	if !ok {
-		port = "8080"
-	}
-
-	router.Run(":" + port)
+	router.Run()
 }
