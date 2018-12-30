@@ -1,9 +1,9 @@
 FROM golang:1.10
-MAINTAINER Ali Shanaakh <ashanaakh@gmail.com>
+LABEL MAINTAINER Ali Shanaakh <github@shanaakh.pro>
 
 ENV PORT=8080
 
-WORKDIR $GOPATH/src/github.com/ashanaakh/ua-cities
+WORKDIR $GOPATH/src/github.com/shal/ua-cities
 
 COPY . ./
 

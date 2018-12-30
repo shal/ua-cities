@@ -1,8 +1,8 @@
 package cmd
 
 import (
-	"github.com/ashanaakh/ua-cities/api"
 	"github.com/gin-gonic/gin"
+	"github.com/shal/ua-cities/api"
 )
 
 // Run executes main project logic
