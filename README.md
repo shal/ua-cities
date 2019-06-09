@@ -1,11 +1,9 @@
 [license]: ./LICENSE
 [goreport]: https://goreportcard.com/report/github.com/shal/ua-cities
 
-# Ukrainian cities
-
 [![Go Report Card](https://goreportcard.com/badge/github.com/shal/ua-cities)][goreport]
 
-## Overview
+# Ukrainian cities
 
 > :ukraine: RESTful API for ukrainian cities
 
