@@ -12,15 +12,15 @@
 ## Usage
 
 ```
-$ curl localhost:8080/city/:city
+$ http localhost:8080/city/Kiev
 ```
 
-```JSON
+```json
 {
   "name": "Kiev",
   "location": {
-  "lat": "50.584981",
-  "lon": "30.235748"
+    "lat": "50.584981",
+    "lon": "30.235748"
   }
 }
 ```
@@ -28,4 +28,3 @@ $ curl localhost:8080/city/:city
 ## License
 
 Project released under the terms of the MIT [license][license].
-
