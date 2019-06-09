@@ -7,7 +7,7 @@
 
 ## Overview
 
-`JSON` API to for getting location of specified Ukrainian city.
+> :ukraine: RESTful API for ukrainian cities
 
 ## Usage
 
